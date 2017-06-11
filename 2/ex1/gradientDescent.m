@@ -18,9 +18,9 @@ for iter = 1:num_iters
     %
 
 
+    %   https://stackoverflow.com/questions/10479353/gradient-descent-seems-to-fail
 
-
-
+    theta = theta - ( alpha / m * (X * theta - y )' * X)'
 
 
     % ============================================================
